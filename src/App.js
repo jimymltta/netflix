@@ -19,7 +19,7 @@ function App() {
       <div className="container">
         <ul>
           {data.map((elem, index) => {
-            return <Section title={elem.title} image={elem.list} />;
+            return <Section category={elem.category} images={elem.images} />;
           })}
         </ul>
       </div>
