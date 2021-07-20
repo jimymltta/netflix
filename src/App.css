@@ -12,12 +12,21 @@
   padding: 25px;
 }
 
+/* ----- ROOT ----- */
+body {
+  margin: 0px;
+}
+
 /* ----- APP ----- */
 .app {
   background-color: black;
 }
 
 /* ----- SECTIONS ----- */
+.container ul {
+  margin: 0px;
+}
+
 .category h2 {
   color: white;
   font-family: sans-serif;
